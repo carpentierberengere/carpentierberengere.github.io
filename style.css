@@ -41,6 +41,9 @@ header a {
     letter-spacing: 2px;
     padding: 0 20px;
 }
+header a:hover{
+    color:antiquewhite;
+}
 
 /*Social media bar*/
 .media ul {
@@ -60,6 +63,9 @@ header a {
 .media a {
     text-decoration: none;
     color: black;
+}
+.media a:hover{
+    color:antiquewhite;
 }
 
 /*Content*/
