@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-family: 'Poppins', sans-serif;
+}
 body {
     font-family: 'Poppins', sans-serif;
     background: #E8E6DC;
@@ -56,7 +59,7 @@ header a:hover{
     background-color:  #f2f3f4 ;
     display:flex;
 }
-.content{
+.home_content{
     display:inline-block;
     width:50%;
     height:500px;
@@ -78,7 +81,7 @@ img{
     line-height: -20px;
     font-weight: 900;
 }
-.title{
+.content_title{
     font-size:80px;
     letter-spacing:28px;
     line-height: 350px;
