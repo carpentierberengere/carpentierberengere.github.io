@@ -305,4 +305,85 @@ footer{
     margin-top:1.3%;
 }
 
+/*-----------RESPONSIVE-------------*/
+@media screen and (max-width:800px){
+    html{
+        display:inline-block;
+    }
+    
+    /*homepage*/
+    .figure{
+        visibility: hidden;
+    }
+    .name{
+        font-size:35px;
+    }
+
+    /*about*/
+    .about{
+        display:flex;
+        
+        
+    }
+    .ab{
+        font-size:40px;
+        
+    }
+    .abtexte{
+        font-size:12.5px;
+    }
+
+    /*footer*/
+    .logo-footer{
+        height:35px;
+        width:70px;
+    }
+    .text-footer{
+        font-size:8px;
+    }
+    
+    
+}
+@media screen and (min-width:500px) and (max-width:800px){
+    /*homepage*/
+    .name{
+        font-size:25px;
+    }
+    .content_title{
+        font-size:45px;
+    }
+    .webdev{
+        font-size:25px;
+    }
+    /*about*/
+    .about{
+        width:100%;
+        
+    }
+    .abTitle{
+        width:30%;
+        
+    }
+    .abText{
+        width:70%;
+       
+    }
+    .abtexte{
+        font-size:9px;
+    }
+    .ab{
+        font-size:30px;
+    }
+    /*contact*/
+    .contact{
+        text-align:center;
+    }
+    .h4_contact{
+        font-size:20px;
+    }
+    .socials{
+        font-size:10px;
+    }
+
+}
 
