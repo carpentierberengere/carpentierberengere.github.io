@@ -3,14 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
     <link rel="icon" type="image/png" sizes="16x16" href="./img/figOne.png">
-    
     <link href="./style.css" rel="stylesheet" />
     <link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
     <title>Carpentier B</title>
 </head>
+
 <header>
 
     <ul>
@@ -38,7 +39,7 @@
             </div>
 
             <div class="figure">
-                <img src="img/figOne.png">
+                <img class="portrait" src="img/portrait.png">
                 <!--Image here-->
             </div>
         </section>
@@ -70,110 +71,105 @@
         </section>
         <!-------------PAGE PORTFOLIO------------------------------>
         <section class="portfolio">
-            <!---------ROW ONE --------->
-            <div class="projects">
-                
-                <div class="projectOne">
-                    <a href="https://carpentierberengere.github.io/calculator/" class="proj" target="_blank">
-                        <div class="card">
-                            <img  class="card_img" src="./img/calc.png" alt="JSCalculator">
-                            <div class="container">
-                              <h4><b>Calculator</b></h4>
-                              <p>Online Calculator made with JavaScript, HTML5 and some CSS3.</p>
-                              <a href="/" target="_blank"><i class="fab fa-github"></i></a>
-                            </div>
-                          </div> 
-                    </a>
-                </div>
-                <div class="projectTwo">
-                    <a href="https://carpentierberengere.github.io/amazeing/" class="proj" target="_blank">
-                        <div class="card">
-                            <img class="card_img" src="./img/maze.png" alt="JSMaze">
-                            <div class="container">
-                                <h4><b>AMazeing</b></h4>
-                                <p>Online Maze made with JavaScript, HTML5 and some CSS3.</p>
-                                <a href="/" target="_blank"><i class="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="projectThree">
-                    <a href="https://carpentierberengere.github.io/collection/" class="proj" target="_blank">
-                        <div class="card">
-                            <img class="card_img" src="./img/collection.png" alt="Collection">
-                            <div class="container">
-                                <h4><b>Collection</b></h4>
-                                <p>Collection made using the Bulma framework, HTML5 and some CCS3.</p>
-                                <a href="/" target="_blank"><i class="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="projectFour">
-                    <a href="https://carpentierberengere.github.io/snakeJS/" class="proj" target="_blank">
-                        <div class="card">
-                            <img class="card_img" src="./img/snake.png" alt="snakeJS">
-                            <div class="container">
-                                <h4><b>Snake Game</b></h4>
-                                <p>A good old snake game made with Javascript and HTML/CSS Basics.</p>
-                                <a href="/" target="_blank"><i class="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <!-------ROW TWO------->
-            <div class="projects">
-                <div class="projectFive">
-                    <a href="https://carpentierberengere.github.io/snakeJS/" class="proj" target="_blank">
-                        <div class="card">
-                            <img class="card_img" src="./img/paper.png" alt="RockPaperScissor">
-                            <div class="container">
-                                <h4><b>Rock Paper Scissor</b></h4>
-                                <p>Rock Paper Scissor, made using Javascript and HTML/CSS Basics.</p>
-                                <a href="/" target="_blank"><i class="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="projectSix">
-                    <a href="https://carpentierberengere.github.io/snakeJS/" class="proj" target="_blank">
-                        <div class="card">
-                            <img class="card_img" src="./img/cookie.png" alt="RockPaperScissor">
-                            <div class="container">
-                                <h4><b>Cookie Clicker</b></h4>
-                                <p>A Cookie Clicker game, made using ReactJS.</p>
-                                <a href="/" target="_blank"><i class="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="projectSeven">
-                    <a href="https://carpentierberengere.github.io/snakeJS/" class="proj" target="_blank">
-                        <div class="card">
-                            <img class="card_img" src="./img/sky_year_zodiac.png" alt="FindYourZodiac">
-                            <div class="container">
-                                <h4><b>Find Your Zodiac</b></h4>
-                                <p>Find your zodiac sign!</br> Made with HTML/CSS Basics and Javascript.</p>
-                                <a href="/" target="_blank"><i class="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="projectEight">
-                    <a href="https://carpentierberengere.github.io/snakeJS/" class="proj" target="_blank">
-                        <div class="card">
-                            <img class="card_img" src="./img/front-end-web-development.png" alt="LeavingTheHill">
-                            <div class="container">
-                                <h4><b>Front-End Challenges</b></h4>
-                                <p>Four challenges made to consolidate our front-end skills.</p>
-                                <a href="/" target="_blank"><i class="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
 
+            <div class="container">
+                <h1 class="title-carousel">Projects</h1>
+                <h3 class="para-carousel">Drag each card left or right to discover a project</h3>
+                <div class="card-carousel">
+
+                    <div class="card" id="1">
+                        <img class="card_img" src="./img/calc.png" alt="JSCalculator">
+                        <h4><b>Calculator</b></h4>
+                        <p>Online Calculator made with JavaScript, HTML5 and some CSS3.</p>
+                        <div class="visu">
+                            <a href="/" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="/" target="_blank"><i class="far fa-eye"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="card" id="2">
+                        <img class="card_img" src="./img/maze.png" alt="JSMaze">
+                        <h4><b>AMazeing</b></h4>
+                        <p>Online Maze made with JavaScript, HTML5 and some CSS3.</p>
+                        <div class="visu">
+                            <a href="/" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="/" target="_blank"><i class="far fa-eye"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="card" id="3">
+                        <img class="card_img" src="./img/collection.png" alt="Collection">
+                        <h4><b>Collection</b></h4>
+                        <p>Collection made using the Bulma framework, HTML5 and some CCS3.</p>
+                        <div class="visu">
+                            <a href="/" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="/" target="_blank"><i class="far fa-eye"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="card" id="4">
+                        <img class="card_img" src="./img/snake.png" alt="snakeJS">
+                        <h4><b>Snake Game</b></h4>
+                        <p>A good old snake game made with Javascript and HTML/CSS Basics.</p>
+                        <div class="visu">
+                            <a href="/" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="/" target="_blank"><i class="far fa-eye"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="card" id="5">
+                        <img class="card_img" src="./img/paper.png" alt="RockPaperScissor">
+                        <h4><b>Rock Paper Scissor</b></h4>
+                        <p>Rock Paper Scissor, made using Javascript and HTML/CSS Basics.</p>
+                        <div class="visu">
+                            <a href="/" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="/" target="_blank"><i class="far fa-eye"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="card" id="6">
+                        <img class="card_img" src="./img/cookie.png" alt="RockPaperScissor">
+                        <h4><b>Cookie Clicker</b></h4>
+                        <p>A Cookie Clicker game, made using ReactJS.</p>
+                        <div class="visu">
+                            <a href="/" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="/" target="_blank"><i class="far fa-eye"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="card" id="7">
+                        <img class="card_img" src="./img/sky_year_zodiac.png" alt="FindYourZodiac">
+                        <h4><b>Find Your Zodiac</b></h4>
+                        <p>Find your zodiac sign!</br> Made with HTML/CSS Basics and Javascript.</p>
+                        <div class="visu">
+                            <a href="/" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="/" target="_blank"><i class="far fa-eye"></i></a>
+                        </div>
+
+                    </div>
+
+                    <div class="card" id="8">
+                        <img class="card_img" src="./img/front-end-web-development.png" alt="LeavingTheHill">
+                        <h4><b>Front-End Challenges</b></h4>
+                        <p>Four challenges made to consolidate our front-end skills.</p>
+                        <div class="visu">
+                            <a href="/" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="/" target="_blank"><i class="far fa-eye"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="card" id="9">
+                        <img class="card_img" src="./img/front-end-web-development.png" alt="LeavingTheHill">
+                        <h4><b>Restaurant</b></h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                        <div class="visu">
+                            <a href="/" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="/" target="_blank"><i class="far fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="visuallyhidden card-controller">Carousel controller</a>
+            </div>
 
 
         </section>
@@ -185,7 +181,7 @@
             </figure>
             <h4 class="h4_contact"> Want to contact me ? Here are my socials </h4>
             <p class="p_contact">
-                <p class="email">Email me :</p> berengere@carpentier.brussels
+                <p class="email">Email me :</p> <b>berengere@carpentier.brussels</b>
             </p>
             <ul class="socials">
                 <li class="soc"><a href="https://www.instagram.com/imbubbeh/" target="_blank"><i
@@ -203,14 +199,27 @@
 
     </article>
     <!--fin du scroll-->
+    <script src="./carousel.js"></script>
 </body>
 <footer>
-    <div class="becode">
-        <p>BeCode Trainee</p>
-    </div>
-    <div class="footSocials">
-
-
+    <div class="footer">
+        <div class="footer-logo">
+            <img class="logo-footer" src="img/logobibi.png">
+        </div>
+        <div class="footer-text">
+            <p class="text-footer">
+                Portfolio made by <b>B.CARPENTIER</b>
+            </p>
+        </div>
+        <div class="footer-socials">
+            <ul class="socials-footer">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i class="fab fa-github-alt"></i></a></li>
+            </ul>
+        </div>
     </div>
 </footer>
 
