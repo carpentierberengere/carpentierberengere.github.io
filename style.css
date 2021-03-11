@@ -16,10 +16,12 @@ body {
 /*------HEADER-------*/
 header {
     display: flex;
+    
 }
 
 header ul {
     margin-left: 2%;
+    position :fixed;
 
 
 }
@@ -39,7 +41,7 @@ header a {
     color: black;
     font-size: 10px;
     letter-spacing: 2px;
-    padding: 0 20px;
+    padding-left:10px;
 }
 header a:hover{
     color:#f3e3d3;
