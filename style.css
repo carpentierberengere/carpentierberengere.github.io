@@ -101,8 +101,9 @@ header a:hover{
 /*-------------------------PAGE ABOUT---------------------------*/
 .about{
     width:100%;
-    height:575px;
+    height:550px;
     background-color: #c98860;
+    
     display:flex;
     margin-top:2%;
 }
@@ -115,7 +116,7 @@ header a:hover{
 .abText{
     width:60%;
      height:550px;
-     margin-top:2%;
+     margin-top:3%;
      margin-right:15px;
      
 }
