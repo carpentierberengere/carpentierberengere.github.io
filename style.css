@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
 }
 body {
     
@@ -308,12 +308,18 @@ footer{
 }
 
 /*-----------RESPONSIVE-------------*/
-@media screen and (max-width:800px){
+@media screen and (max-width:950px){
+    .portrait{
+        visibility: hidden;
+    }
+}
+@media screen and (min-width:800px) and (max-width:950px){
     html{
         display:inline-block;
     }
     
     /*homepage*/
+    
     .figure{
         visibility: hidden;
     }
@@ -332,7 +338,7 @@ footer{
         
     }
     .abtexte{
-        font-size:12.5px;
+        font-size:14px;
     }
 
     /*footer*/
@@ -348,6 +354,10 @@ footer{
 }
 @media screen and (min-width:500px) and (max-width:800px){
     /*homepage*/
+    .home{
+        
+        height:450px;
+    }
     .name{
         font-size:25px;
     }
@@ -357,17 +367,25 @@ footer{
     .webdev{
         font-size:25px;
     }
+    .portrait{
+        visibility: hidden;
+    }
     /*about*/
     .about{
         width:100%;
+        height:450px;
+        
         
     }
     .abTitle{
-        width:30%;
-        
+        width:0;
+        visibility: hidden;
     }
     .abText{
-        width:70%;
+        width:80%;
+        height:400px;
+        margin-left:3.5%;
+        
        
     }
     .abtexte{
@@ -386,6 +404,112 @@ footer{
     .socials{
         font-size:10px;
     }
+    /*portfolio*/
+    .title-carousel{
+        font-size:25px;
+        margin-right:50px;
+    }
+    .para-carousel{
+        font-size:15px;
+        margin-right:50px;
+    }
+    .portfolio{
+        text-align:center;
+        
+    }
+    /*contact*/
+    .contact{
+        width:100%;
+        height:360px;
+        
+    }
+    .contact-div{
+        
+        width:90%;
+    }
+    .logo{
+        width:250px;
+        height:150px;
+    }
+    /*footer*/
+    .footer-text{
+        width:0;
+        visibility:hidden;
+    }
 
+    
+
+}
+
+/*SMALL PHONES RESPONSIVE*/
+
+@media only screen and (min-width:300px) and (max-width:500px){
+    *{
+        width:auto;
+    }
+    
+    /*homepage*/
+    .home{
+        
+        height:350px;
+    }
+    .portrait{
+        visibility:hidden;
+    }
+    .name{
+        font-size:25px;
+        line-height:50px;
+    }
+    .content_title{
+        font-size:30px;
+        letter-spacing:17px;
+        line-height:200px;
+    }
+    .webdev{
+        font-size:25px;
+    }
+    /*about*/
+    
+    .abtexte{
+        font-size:10px;
+    }
+    .abText{
+        margin-left:5%;
+    }
+    .abTitle{
+        width:0;
+        visibility: hidden;
+    }
+    /*portfolio*/
+    .title-carousel{
+        font-size:30px;
+        margin-right:15%;
+    }
+    .para-carousel{
+        font-size:13px;
+        letter-spacing:1px;
+        margin-right:20.5%;
+    }
+    /*contact*/
+    .contact-div{
+        margin-right:16%;
+    }
+    .logo{
+        width:250px;
+        height:150px;
+    
+    }
+    .h4_contact{
+        font-size:15.5px;
+        letter-spacing:0px;
+        margin-right:10%;
+    }
+    .p_contact{
+        font-size:10px;
+    }
+    .socials{
+        font-size:8px;
+        margin-right:10%;
+    }
 }
 
